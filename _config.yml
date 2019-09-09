@@ -2,7 +2,7 @@ title: TreeOfLife Dependency Installer for Scientific Software
 logo: /assets/img/ToL_diss_squared.png
 description: Tree Of Life - Dependency Installer for Scientific Software
 show_downloads: true
-google_analytics:
+google_analytics: UA-147454226-1
 theme: jekyll-theme-minimal
 github:
   is_project_page: true
