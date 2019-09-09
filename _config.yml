@@ -1,1 +1,12 @@
+title: TreeOfLife Dependency Installer for Scientific Software
+logo: /assets/img/ToL_diss_squared.png
+description: Tree Of Life - Dependency Installer for Scientific Software
+show_downloads: true
+google_analytics:
 theme: jekyll-theme-minimal
+github:
+  is_project_page: true
+  repository_url: https://github.com/TreeOfLife-diss
+  repository_name: TreeOfLife-diss
+  owner_url: https://github.com/joaomcteixeira
+  owner_name: joaomcteixeira
