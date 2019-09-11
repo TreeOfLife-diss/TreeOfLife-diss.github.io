@@ -10,7 +10,17 @@ The architecture of Tree-of-Life is straightforward; I invite you to read throug
 
 ### Firstly
 
-Tree-of-Life is composed of a main _installer_ file [tree_of_life.py](https://github.com/joaomcteixeira/Tree-of-Life/blob/master/tree_of_life.py) and an [install](https://github.com/joaomcteixeira/Tree-of-Life/tree/master/install) folder where all its dependencies and _template_ files are stored. To implement Tree-of-Life in your project copy the _main installer_ file and the `install` folder to your project repository, always according to [the project license](https://github.com/joaomcteixeira/Tree-of-Life/blob/master/LICENSE).
+Tree-of-Life is composed of a main _installer_ file [tree_of_life.py](https://github.com/joaomcteixeira/Tree-of-Life/blob/master/tree_of_life.py) and an [install](https://github.com/joaomcteixeira/Tree-of-Life/tree/master/install) folder where all its dependencies and _template_ files are stored. To implement Tree-of-Life in your project copy the _main installer_ file and the `install` folder to your project repository/folder, always according to [the project license](https://github.com/joaomcteixeira/Tree-of-Life/blob/master/LICENSE).
+
+**example:**
+```
+MyProject/
+    -- MyProject_folder/
+        -- (... all your project scr files ...)
+    
+    -- install/
+    -- tree_of_life.py (this is the main installer, renamed it at will)
+```
 
 ### Secondly
 
@@ -18,7 +28,7 @@ Tree-of-Life is composed of a main _installer_ file [tree_of_life.py](https://gi
 
 #### host project variables
 
-Configure Tree-of-Life according to your project (the host project), it's very easy, update the variables in the [host_project_vars.py](https://github.com/joaomcteixeira/Tree-of-Life/blob/master/install/host_project_vars.py).
+Configure Tree-of-Life according to your project (the host project), it's very easy, simply update the variables in the [host_project_vars.py](https://github.com/joaomcteixeira/Tree-of-Life/blob/master/install/host_project_vars.py).
 
 There is also a BIG BANNER at the end which is displayed as advertising header in the beginning of the installation, change it to fit your project if desired.
 
